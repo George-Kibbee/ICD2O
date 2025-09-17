@@ -28,7 +28,16 @@
     <button id="searchbutton" class="mdl-button mdl-js-button mdl-button--fab">
       <i class="material-icons">search</i>
     </button>
+    <!-- Raised button -->
+    <button id="clearbutton" class="mdl-button mdl-js-button mdl-button--raised">
+      Clear 
+    </button>
+
     <script>
+      document.getElementById('clearbutton').addEventListener('click', () => { 
+        document.getElementById('userinput').value = '';
+        document.getElementById("userinput").focus();
+      });
       const button = document.getElementById('searchbutton');
       const input = document.getElementById('userinput');
       button.addEventListener('click', function(){
