@@ -1,0 +1,6 @@
+.normal{ color: blue} 
+ol li::marker{
+  font-size: 40px;
+}
+.slight-indent{padding-left: 40px}
+.large-indent{padding-left: 80px}
