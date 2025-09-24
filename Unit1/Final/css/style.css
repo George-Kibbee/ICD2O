@@ -1,6 +1,20 @@
 .normal{ color: blue} 
+
 ol li::marker{
   font-size: 40px;
 }
 .slight-indent{padding-left: 40px}
-.large-indent{padding-left: 80px}
+
+.large-indent{padding-left: 80px;}
+
+.title{background-color: #ffdf51;}
+
+body{background-color: rgb(161, 88, 221);}
+
+ul li{font-size:20px}
+
+.larger-paragraph{font-size:20px;
+  padding:2px;
+  padding-left: 80px;}
+
+#big-important-thing{font-weight:bolder;}
