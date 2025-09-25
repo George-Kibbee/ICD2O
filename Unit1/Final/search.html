@@ -20,7 +20,6 @@
     <link rel="icon" type="image/png" href="./favicon/favicon-32x32.png">
   </head>
   <body>
-    <script src="script.js"></script>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!--Navigation bar-->
@@ -34,40 +33,43 @@
           <!-- Navigation -->
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="index.html">Main page</a>
-            <a class="mdl-navigation__link" href="">General information</a>
+            <a class="mdl-navigation__link" href="general.html">General information</a>
             <a class="mdl-navigation__link" href="recipes.html">Recipes</a>
             <a class="mdl-navigation__link" href="search.html">Search</a>
-            <a class="mdl-navigation__link" href="">About the Author</a>
+            <a class="mdl-navigation__link" href="aboutme.html">About the Author</a>
           </nav>
         </div>
       </header>
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">My Healthy Livivng Guide</span>
         <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="index.html">Main page</a>
-            <a class="mdl-navigation__link" href="">General information</a>
-            <a class="mdl-navigation__link" href="recipes.html">Recipes</a>
-            <a class="mdl-navigation__link" href="search.html">Search</a>
-            <a class="mdl-navigation__link" href="">About the Author</a>
+          <a class="mdl-navigation__link" href="index.html">Main page</a>
+          <a class="mdl-navigation__link" href="general.html">General information</a>
+          <a class="mdl-navigation__link" href="recipes.html">Recipes</a>
+          <a class="mdl-navigation__link" href="search.html">Search</a>
+          <a class="mdl-navigation__link" href="aboutme.html">About the Author</a>
         </nav>
       </div>
       <br>
       <br>
+
       <!--main content-->
-      <h1 element = big-important-thing>Type in anything related to healthy living and you will get an answer.</h1>
-            <!-- search button -->
-            <button id="searchbutton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-              <i class="material-icons">search</i>
-            </button>
+      <h1 element=big-important-thing>Type in anything related to healthy living and you will get an answer.</h1>
+      <!-- search button -->
       <!--textfield-->
       <form action="#">
-        <div id="userinput" class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="sample1">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input id="userinput" class="mdl-textfield__input" type="text" id="sample1">
           <label class="mdl-textfield__label" for="sample1">Type here</label>
         </div>
+        <button id="searchbutton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+          <i class="material-icons">search</i>
+        </button>
       </form>
       <!-- clear button -->
-      <button id ="clearbutton" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+      <button id="clearbutton" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
         Clear
       </button>
-
+    <script src="./JavaScript/script.js"></script>
+  </body>
+</html>
