@@ -1,8 +1,9 @@
-.normal{ color: blue} 
+#normal-link{ color: rgb(2, 126, 243)} 
 
 ol li::marker{
   font-size: 40px;
 }
+ol li{font-weight: bold;} 
 .slight-indent{padding-left: 40px}
 
 .large-indent{padding-left: 80px;}
